@@ -23,6 +23,7 @@ const colourStyles = {
     backgroundColor: "black",
     borderRadius: "100px",
     borderStyle: "none",
+
   }),
   option: (styles, { isDisabled, isFocused, isSelected }) => {
     return {
@@ -60,7 +61,7 @@ const colourStyles = {
   singleValue: (styles, { data }) => ({
     ...styles,
     ...dot(data.color),
-    color: "white",
+    color: "white"
   }),
 };
 
