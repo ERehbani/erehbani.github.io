@@ -18,7 +18,8 @@ body {
   flex-direction: column;
   gap: 12px;
   border-radius: 8px;
-  background-color: transparent
+  background-color: transparent;
+  width: 25vw;
 }
 .input {
   padding: 16px 10px;

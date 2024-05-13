@@ -178,7 +178,6 @@ const Converter = () => {
 
   return (
     <div className="container">
-      <h1 className="title">Calculadora de Satoshis</h1>
       <input
         type="number"
         id="amountInput"
